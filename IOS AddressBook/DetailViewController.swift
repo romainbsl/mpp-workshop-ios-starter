@@ -5,6 +5,7 @@ class DetailViewController: UIViewController {
     var contactId: String?
     
     @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var birthdayLabel: UILabel!
     @IBOutlet weak var phonesLabel: UILabel!
     @IBOutlet weak var addressesLabel: UILabel!
     
