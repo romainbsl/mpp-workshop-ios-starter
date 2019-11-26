@@ -32,67 +32,57 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Hav-C6-EsP">
-                                <rect key="frame" x="143.5" y="375.5" width="127" height="145"/>
+                                <rect key="frame" x="143.5" y="390" width="127" height="116"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ijq-d0-FFn" userLabel="Name title">
-                                        <rect key="frame" x="0.0" y="0.0" width="127" height="29"/>
+                                    <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="0XM-y9-sOw" userLabel="Name value">
+                                        <rect key="frame" x="0.0" y="0.0" width="127" height="0.0"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                        <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="0XM-y9-sOw" userLabel="Name value">
-                                        <rect key="frame" x="0.0" y="29" width="127" height="0.0"/>
+                                    <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Lur-qe-qk0" userLabel="Birthday value">
+                                        <rect key="frame" x="0.0" y="0.0" width="127" height="0.0"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   " lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aub-FR-eSH" userLabel="separator">
-                                        <rect key="frame" x="0.0" y="29" width="127" height="29"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="127" height="29"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phones:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cni-mR-3Wq" userLabel="Phones title">
-                                        <rect key="frame" x="0.0" y="58" width="127" height="29"/>
+                                        <rect key="frame" x="0.0" y="29" width="127" height="29"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2oZ-Vk-JcV" userLabel="Phones values">
-                                        <rect key="frame" x="0.0" y="87" width="127" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="58" width="127" height="0.0"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   " lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gYd-yh-xyf" userLabel="separator">
-                                        <rect key="frame" x="0.0" y="87" width="127" height="29"/>
+                                        <rect key="frame" x="0.0" y="58" width="127" height="29"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Addresses:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qCU-0o-zEm" userLabel="Addresses title">
-                                        <rect key="frame" x="0.0" y="116" width="127" height="29"/>
+                                        <rect key="frame" x="0.0" y="87" width="127" height="29"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MYS-Hh-y6l" userLabel="Addresses values">
-                                        <rect key="frame" x="0.0" y="145" width="127" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="116" width="127" height="0.0"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="Cni-mR-3Wq" firstAttribute="leading" secondItem="ijq-d0-FFn" secondAttribute="leading" id="86Z-6D-ZB4"/>
-                                    <constraint firstItem="0XM-y9-sOw" firstAttribute="width" secondItem="ijq-d0-FFn" secondAttribute="width" id="97E-OQ-de5"/>
-                                    <constraint firstItem="0XM-y9-sOw" firstAttribute="leading" secondItem="ijq-d0-FFn" secondAttribute="leading" id="9TV-yA-GYF"/>
-                                    <constraint firstItem="qCU-0o-zEm" firstAttribute="trailing" secondItem="ijq-d0-FFn" secondAttribute="trailing" id="Kqe-UU-x93"/>
-                                    <constraint firstItem="qCU-0o-zEm" firstAttribute="width" secondItem="ijq-d0-FFn" secondAttribute="width" id="VeY-ml-6xp"/>
-                                    <constraint firstItem="qCU-0o-zEm" firstAttribute="leading" secondItem="ijq-d0-FFn" secondAttribute="leading" id="eNE-OY-6Pl"/>
-                                    <constraint firstItem="Cni-mR-3Wq" firstAttribute="width" secondItem="ijq-d0-FFn" secondAttribute="width" id="l49-hh-xX5"/>
-                                    <constraint firstItem="Cni-mR-3Wq" firstAttribute="trailing" secondItem="ijq-d0-FFn" secondAttribute="trailing" id="vFW-O6-T19"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -106,6 +96,7 @@
                     <navigationItem key="navigationItem" title="Detail" id="mOI-FS-AaM"/>
                     <connections>
                         <outlet property="addressesLabel" destination="MYS-Hh-y6l" id="7Eu-o1-4iQ"/>
+                        <outlet property="birthfayLabel" destination="Lur-qe-qk0" id="JqM-r9-63x"/>
                         <outlet property="nameLabel" destination="0XM-y9-sOw" id="MxK-7I-VVU"/>
                         <outlet property="phonesLabel" destination="2oZ-Vk-JcV" id="lr0-7i-QC0"/>
                     </connections>

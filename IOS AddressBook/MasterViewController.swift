@@ -2,6 +2,7 @@ import UIKit
 
 class MasterViewController: UITableViewController {
     
+    private var contactList = [Any]()
     var detailViewController: DetailViewController? = nil
     
     override func viewDidLoad() {
@@ -19,14 +20,7 @@ class MasterViewController: UITableViewController {
     // MARK: - Segues
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetail" {
-            if let indexPath = tableView.indexPathForSelectedRow {
-                // TODO - Get the clicked contact object from the Table View
-                let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
-                // TODO - Set the contact Id in the DetailController before calling it
-                controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
-                controller.navigationItem.leftItemsSupplementBackButton = true
-                detailViewController = controller
-            }
+            // TODO - Configure segue
         }
     }
     
