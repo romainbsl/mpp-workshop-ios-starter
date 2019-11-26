@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  IOS AddressBook
-//
-//  Created by Romain on 21/11/2019.
-//  Copyright © 2019 Romain. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
