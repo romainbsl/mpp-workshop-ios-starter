@@ -29,6 +29,11 @@ class DetailViewController: UIViewController ,ContactDetailView {
     func displayContact(contact: Contact) {
            nameLabel.text = contact.fullName
 
+           let date = Date(timeIntervalSince1970: contact.birthday / 1000)
+           let dateFormatter = DateFormatter()
+           dateFormatter.dateFormat = "yyyy-MM-dd"
+           birthfayLabel.text = dateFormatter.string(from: date)
+
            for (index,phone) in contact.phones.enumerated() {
                phonesLabel.text! += phone.type.displayedName + ": "
                                    + phone.number
