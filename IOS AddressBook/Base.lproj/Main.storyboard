@@ -96,7 +96,7 @@
                     <navigationItem key="navigationItem" title="Detail" id="mOI-FS-AaM"/>
                     <connections>
                         <outlet property="addressesLabel" destination="MYS-Hh-y6l" id="7Eu-o1-4iQ"/>
-                        <outlet property="birthfayLabel" destination="Lur-qe-qk0" id="JqM-r9-63x"/>
+                        <outlet property="birthdayLabel" destination="Lur-qe-qk0" id="sIQ-D3-76X"/>
                         <outlet property="nameLabel" destination="0XM-y9-sOw" id="MxK-7I-VVU"/>
                         <outlet property="phonesLabel" destination="2oZ-Vk-JcV" id="lr0-7i-QC0"/>
                     </connections>
